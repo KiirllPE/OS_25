@@ -14,7 +14,7 @@ int main() {
 	}
 	result = fork();
 	if(result < 0) {
-		printf("ощибка при выполнение fork()\n");
+		printf("ошибка при выполнение fork()\n");
 		exit(-1);
 	}
 	else if (result > 0) {
